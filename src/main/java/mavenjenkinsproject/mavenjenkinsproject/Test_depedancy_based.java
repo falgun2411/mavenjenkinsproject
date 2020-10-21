@@ -3,10 +3,15 @@ package mavenjenkinsproject.mavenjenkinsproject;
 import org.testng.annotations.Test;
 
 public class Test_depedancy_based {
-	
-	
 
-	   @Test
+	@Test
+	public void testPrintMessage1() {
+		System.out.println("Inside test testPrintMessage()");
+
+	}
+
+
+	@Test
 	   public void testPrintMessage() {
 	      System.out.println("Inside test testPrintMessage()");
 	     
