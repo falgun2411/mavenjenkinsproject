@@ -10,6 +10,16 @@ public class Test_depedancy_based {
 
 	}
 
+	@Test
+	public void testPrintMessage2() {
+		System.out.println("Inside test testPrintMessage()");
+
+	}
+	@Test
+	public void testPrintMessage3() {
+		System.out.println("Inside test testPrintMessage()");
+
+	}
 
 	@Test
 	   public void testPrintMessage() {
