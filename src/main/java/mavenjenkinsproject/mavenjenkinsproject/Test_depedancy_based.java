@@ -8,7 +8,7 @@ public class Test_depedancy_based {
 
 	   @Test
 	   public void testPrintMessage() {
-	      System.out.println("Inside testPrintMessage()");
+	      System.out.println("Inside test testPrintMessage()");
 	     
 	   }
 
