@@ -46,6 +46,12 @@
         <plugin>
           <artifactId>maven-surefire-plugin</artifactId>
           <version>2.22.1</version>
+          <configuration>
+          <testFailureIgnore>true</testFailureIgnore>
+          <suiteXmlFiles>
+            <suiteXmlFile>testng_singleCase.xml</suiteXmlFile>
+          </suiteXmlFiles>
+        </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-jar-plugin</artifactId>
